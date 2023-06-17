@@ -1,13 +1,14 @@
 using API.Data;
 using API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [ApiController]  //atributes
-    [Route("api/[controller]")] //Controller name.  you can access as GET /api/users
-    public class UsersController : ControllerBase
+    [Authorize] //Allows only authorized users we can do it for all the controller (to authorize every request) not only for e method
+    //We can use [allowAnonymous] to allow anauthozied userss in method level
+    public class UsersController : BaseApiController
     {
         public DataContext _Context { get; set; }
 
