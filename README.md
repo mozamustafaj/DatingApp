@@ -18,14 +18,14 @@ This project serves as a backend for managing a book store's inventory and order
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/yourusername/BookStoreAPI.git
+`git clone https://github.com/yourusername/BookStoreAPI.git`
 
 2. navigate to the project directory:
-cd BookStoreAPI
+`cd BookStoreAPI`
 
 3. Restore the .NET packages and run the application:
-dotnet restore
-dotnet run
+`dotnet restore`
+`dotnet run`
 
 The API can be accessed at **http://localhost:5000/**.
 
@@ -43,7 +43,7 @@ API documentation is available at **http://localhost:5000/swagger**.
 
 # Testing
 To run the unit tests:
-dotnet test
+`dotnet test`
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
