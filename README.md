@@ -27,8 +27,8 @@ This project serves as a backend for managing a book store's inventory and order
 
 4. Restore the .NET packages and run the application:
    
-`dotnet restore`
-`dotnet run`
+`dotnet restore`  
+`dotnet run`  
 
 The API can be accessed at **http://localhost:5000/**.
 
@@ -38,7 +38,7 @@ CRUD operations for books
 - Search for books
 
 To-do list for future development:
-- mplement user authentication and authorization
+- Implement user authentication and authorization
 - Support for bulk orders
 - Enhance search functionality
 
