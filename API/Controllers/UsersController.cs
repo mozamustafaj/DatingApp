@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [Authorize] //Allows only authorized users we can do it for all the controller (to authorize every request) not only for e method
+    [AllowAnonymous] //Allows only authorized users we can do it for all the controller (to authorize every request) not only for e method
     //We can use [allowAnonymous] to allow anauthozied userss in method level
     public class UsersController : BaseApiController
     {

@@ -7,6 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace API.Services
 {
+    //it has only one responsibility to generate token. Not authentication the user etc
     public class TokenService : ITokenService
     {
         private readonly SymmetricSecurityKey _key; //With symmetrickey the key stays in the server because the server doesnt need to decrypt the key
