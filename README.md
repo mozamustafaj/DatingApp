@@ -9,6 +9,9 @@ This project serves as a backend for managing a book store's inventory and order
 - Entity Framework Core 6
 - SQL Server
 - AutoMapper
+- MediaR
+- OData
+- Serilog
 - Swagger/OpenAPI
 
 # Setup
@@ -19,18 +22,20 @@ This project serves as a backend for managing a book store's inventory and order
 ## Installation
 1. Clone the repository:
    
-`git clone https://github.com/yourusername/BookStoreAPI.git`
+`git clone http://srv-tfs-app.ikub.local:8080/tfs/ikubINFOAzureDevOpsProjects/Antikorrupsioni%2022-25/_git/antikorrupsioni-be`
 
 3. navigate to the project directory:
    
-`cd BookStoreAPI`
+`cd AK.WebApi`
 
 4. Restore the .NET packages and run the application:
    
 `dotnet restore`  
 `dotnet run`  
 
-The API can be accessed at **http://localhost:5000/**.
+The API can be accessed at:  
+https: **https://localhost:7137**  
+http:   **http://localhost:5137**
 
 # Features
 CRUD operations for books
@@ -43,7 +48,7 @@ To-do list for future development:
 - Enhance search functionality
 
 # How to Use
-API documentation is available at **http://localhost:5000/swagger**.
+API documentation is available at **http://localhost:5137/swagger**.
 
 # Testing
 To run the unit tests:
