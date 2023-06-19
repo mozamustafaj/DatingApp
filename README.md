@@ -1,16 +1,16 @@
 # DatingApp
 BookStore API is a RESTful API to manage books inventory and orders for a book store.
 
-**Introduction**
+# Introduction
 This project serves as a backend for managing a book store's inventory and orders. It provides endpoints for adding, retrieving, updating, and deleting books, as well as placing and tracking orders.
 
-**Technologies Used**
+# Technologies Used
 .NET 6
 Entity Framework Core 6
 SQL Server
 AutoMapper
 Swagger/OpenAPI
-**Setup**
+# Setup
 Prerequisites
 .NET 6.0 SDK
 SQL Server (any recent version)
